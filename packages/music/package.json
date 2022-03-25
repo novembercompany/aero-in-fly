@@ -1,0 +1,26 @@
+{
+  "name": "@aero/music",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Thebigbot <77632836+Thebigbot0000@users.noreply.github.com>",
+  "homepage": "https://github.com/Undercover-ita/aero#readme",
+  "license": "ISC",
+  "main": "lib/music.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undercover-ita/aero.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Undercover-ita/aero/issues"
+  }
+}
