@@ -1,13 +1,22 @@
 {
   "name": "aero",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc && ts-node index.ts"
+  },
   "dependencies": {
     "@discordjs/opus": "^0.7.0",
     "@discordjs/voice": "^0.8.0",
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "@aero/dev": "^1.0.0",
+    "@aero/utils": "^1.0.0",
+    "@aero/music": "^1.0.0"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "lerna": "^4.0.0"
   }
