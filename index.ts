@@ -5,9 +5,9 @@ import * as _dev from "@aero/dev";
 const _ = new _dds_.Client({ intents: [_dds_.Intents.FLAGS.GUILDS, _dds_.Intents.FLAGS.GUILD_MESSAGES] });
 
 
-_.login(_j.token)
+_.login(_j.token);
 
-_.on('ready', () => _dev.run())
+_.on('ready', () => _dev.run());
 
 _.on('messageCreate', (msg) => {
   if (msg.content === '!play') _dev.play(msg, _);
